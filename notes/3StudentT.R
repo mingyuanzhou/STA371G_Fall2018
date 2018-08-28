@@ -1,0 +1,7 @@
+x = seq(-5,5,0.001)
+plot(x,dnorm(x),type="s")
+lines(x,dt(x,1),type="s",col="Red")
+lines(x,dt(x,3),type="s",col="Blue")
+lines(x,dt(x,9),type="s",col="Green")
+lines(x,dt(x,30),type="s",col="Orange")
+lines(x,dt(x,1000),type="s",col="Red")
